@@ -33,17 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 int randomNumber = random.nextInt(3) + 1;
                 button.setText(String.valueOf(randomNumber));
                 imageView.setImageResource(R.drawable.albert);
-                switch (randomNumber) {
-                    case 1:
-                        imageView.setImageResource(R.drawable.albert);
-                        break;
-                    case 2:
-                        imageView.setImageResource(R.drawable.haha);
-                        break;
-                    case 3:
-                        imageView.setImageResource(R.drawable.mini);
-                        break;
-                }
+
             }
         });
     }
