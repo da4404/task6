@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         imageView = findViewById(R.id.albert1);
         button = findViewById(R.id.button);
-        random = new Random();
+        random = new Random ();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
